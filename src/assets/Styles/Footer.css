@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  padding: 2em; /* Espaço interno para destacar o conteúdo */
+  background: linear-gradient(90deg, #161616, #14145b); /* Gradiente moderno */
+  color: #f5f5f5; /* Texto claro */
+  font-size: 1em; /* Tamanho de fonte equilibrado */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Sombra suave para separação */
+  margin-top: auto; /* Remove o espaço branco abaixo do banner */
+}
+
+.footer a {
+  color: #00d4ff; /* Cor chamativa para links */
+  text-decoration: none;
+  font-weight: bold; /* Destaque nos links */
+  transition: color 0.3s ease, transform 0.3s ease; /* Animação suave */
+}
+
+.footer a:hover {
+  color: #ff6ec7; /* Cor de destaque ao passar o mouse */
+  transform: scale(1.1); /* Leve zoom */
+}

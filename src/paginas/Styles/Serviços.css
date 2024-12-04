@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o banner */
+.serviços-banner {
+  background-color: #101075;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.serviços-banner h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.serviços-banner p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-bar {
+  margin-top: 20px; 
+  padding: 10px 20px;
+  width: 300px;
+  max-width: 90%;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar:focus {
+  border-color: #3b3b98;
+}
+
+/* Estilos para o catálogo de produtos */
+.equipamentos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #1a0a51;
+}
+
+.equipamento {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.equipamento:hover {
+  transform: translateY(-10px);
+}
+
+.equipamento-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+.info {
+  padding: 20px;
+  text-align: center;
+}
+
+.equipamento-nome {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0;
+}
+
+.equipamento-descricao {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.preco {
+  font-size: 18px;
+  color: #3b3b98;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+

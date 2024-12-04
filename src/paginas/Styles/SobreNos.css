@@ -1,0 +1,27 @@
+
+
+
+.sobre-nós-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  padding: 20px; 
+  text-align: center; 
+  background-color: #1a0a51;
+}
+
+.sobre-nós-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #eeebeb;
+}
+
+.sobre-nós-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 10px 0;
+  color: #f2f2f2;
+}
