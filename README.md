@@ -8,7 +8,9 @@ framer-motion
 react-icons
 mysql2
 node
-vite
 express
+
+Feito em vite.
+npm create vite@latest
 
 
